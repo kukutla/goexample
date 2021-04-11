@@ -7,7 +7,10 @@ func main() {
 	foo()
 	for i := 0; i <= 100; i++ {
 		if i%2 == 0 {
-			fmt.Println(i)
+			//n,err := fmt.Println(i)
+			n,_ := fmt.Println(i)
+			fmt.Println(n)
+			//fmt.Println(err)
 		}
 	}
 
